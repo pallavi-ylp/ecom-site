@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+}
+
+.navbar-brand{
+    color:white;
+    padding:5px;
+}
+
+a.nav-link {
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar-nav a:hover{
+    color: white;
+}
+
+.dropdown-item:hover{
+   background-color: black;
+}
+
+.terms{
+    padding:20px 20px;
+    margin-top:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-button{
+    color: black;
+}
+
+.search-button:hover{
+    color:green;
+}
+
+
+/*animation part on page*/
+.animation {
+    width: 100%;
+    height: 30px;
+    padding:25px 25px ;
+    color:blue;
+    background-color: silver;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    0%   {background-color:blue; }
+    25%  {background-color:yellow; }
+}
+
+/*grid content*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #0d6efd;
+    padding: 10px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*footer....*/
+footer{
+    width: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: silver;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.about-us{
+    padding:40px 40px;
+    text-decoration: none;
+    background-color: silver;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-us{
+    padding:40px 40px;
+    text-decoration: none;
+    background-color: silver;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.dropdown-item {
+    color:black;
+}
+
+
+a.dropdown-item:hover {
+    color: blue;
+}
+
+
+#product-listing {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #product-listing td, #product-listing th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #product-listing tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #product-listing tr:hover {background-color: #ddd;}
+  
+  #product-listing th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.nlink{
+    background-color: #0d6efd;
+    color:white;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left:20px;
+}
+
+
+#product-details{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0d6efd;
+    background-color: white;
+    padding: 20px 20px;
+    height: 500px;
+    
+   
+   
+}
+table, th, td {
+    padding: 50px;
+    border: 10px solid white;
+  }
+  
+  table {
+    width: 100%;
+  }
+
+.product_footer_Details{
+    margin-top: 100px;
+    background-color: silver;
+    border: none;
+}
+
+.btn{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.items-in-cart{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0d6efd;
+    background-color: white;
+    padding: 20px 20px;
+    height: 500px;
+    text-align: center;
+}
+
+
+.items-in-cart td, .items-in-cart th {
+    padding: 8px;
+}
+
+
+.items-in-cart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+
+
+.last-note{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #0d6efd;
+    background-color: white;
+    padding: 20px 20px;
+    height: 500px;
+    text-align: center;
+}
+
+.checkout-content{
+   background-color: white;
+  border :1px solid #0d6efd;
+
+}
+
+.checkout-footer{
+    background-color: silver;
+    border: none;
+    margin-top:15px;
+}
